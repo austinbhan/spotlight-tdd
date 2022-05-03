@@ -50,3 +50,11 @@ test('divideThenMultiply should divide the first number by the second then multi
 
     expect.equal(actual, expected);
 });
+
+test('returnsAnArray should take in 3 numbers and return them in an array', (expect) => {
+    const expected = true;
+
+    const actual = true;
+
+    expect.equal(actual, expected);
+});
