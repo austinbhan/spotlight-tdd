@@ -1,5 +1,5 @@
 // IMPORT MODULES under test here:
-import { myFunction } from '../functions.js';
+import { myFunction, addExclamationPoints } from '../functions.js';
 
 const { test, skip } = QUnit;
 
@@ -20,9 +20,9 @@ skip('this test should be skipped', (expect) => {
 });
 
 test('addExclamationPoints should add 3 exclamation points', (expect) => {
-    const expected = true; // 'bunny rabbit!!!'
+    const expected = 'bunny rabbit!!!'; // 'bunny rabbit!!!'
 
-    const actual = true; // addExclamationPoints('bunny rabbit');
+    const actual = addExclamationPoints('bunny rabbit'); // addExclamationPoints('bunny rabbit');
 
     expect.equal(actual, expected);
 });
@@ -52,6 +52,14 @@ test('divideThenMultiply should divide the first number by the second then multi
 });
 
 test('returnsAnArray should take in 3 numbers and return them in an array', (expect) => {
+    const expected = true;
+
+    const actual = true;
+
+    expect.equal(actual, expected);
+});
+
+test('returnsAsAString mushes numbers', (expect) => {
     const expected = true;
 
     const actual = true;
