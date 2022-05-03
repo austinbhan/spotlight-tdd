@@ -2,8 +2,9 @@ export function myFunction() {
     return true;
 }
 // This function should take a string and add return an new string that adds three exclamation points to the argument.
-/* 
 
+/* 
+    
 Input:
 
 'bunny rabbit'
@@ -14,9 +15,9 @@ Output:
 
 */
 
-export function addExclamationPoints() {
-    return true;
-}
+export function addExclamationPoints(booger) {
+    return `${booger}!!!`;
+} // DONE
 
 // This function should take in a number and multiply it by seven
 
@@ -31,7 +32,7 @@ Output:
 */
 
 export function multiplyBySeven(num) {
-    return true;
+    return (num * 7);
 }
 
 // This function should take in a number and multiply it by twelve then cut the result in half
@@ -48,7 +49,7 @@ Output:
 */
 
 export function multiplyBy12ThenHalve(num) {
-    return true;
+    return (num * 12 / 2);
 }
 
 // This function should take in three numbers, divide the first by the second, then multiply the result by the third
@@ -64,7 +65,7 @@ Output:
 */
 
 export function divideThenMultiply(firstNumber, secondNumber, thirdNumber) {
-    return true;
+    return (firstNumber / secondNumber * thirdNumber);
 }
 
 // This function should take in three numbers and return those numbers in an array
@@ -80,7 +81,7 @@ Output:
 */
 
 export function returnAsAnArray(firstNumber, secondNumber, thirdNumber) {
-    return true;
+    return [firstNumber, secondNumber, thirdNumber];
 }
 
 // This function should take in three numbers and return those numbers mushed together as a string
@@ -96,7 +97,7 @@ Output:
 */
 
 export function returnAsAString(firstNumber, secondNumber, thirdNumber) {
-    return true;
+    return (firstNumbersecondNumberthirdNumber);
 }
 
 // This function should take in two numbers and return a greeting announcing that the sum of those numbers is today's lucky number
