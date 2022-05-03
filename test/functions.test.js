@@ -19,6 +19,10 @@ skip('this test should be skipped', (expect) => {
     expect.equal(actual, expected);
 });
 
-export function myFunction(name) {
-    
-}
+test('addExclamationPoints should add 3 exclamation points', (expect) => {
+    const expected = true; // 'bunny rabbit!!!'
+
+    const actual = true; // addExclamationPoints('bunny rabbit');
+
+    expect.equal(actual, expected);
+});
