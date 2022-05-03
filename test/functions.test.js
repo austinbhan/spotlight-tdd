@@ -18,3 +18,7 @@ skip('this test should be skipped', (expect) => {
 
     expect.equal(actual, expected);
 });
+
+export function myFunction(name) {
+    
+}
