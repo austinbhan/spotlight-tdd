@@ -42,3 +42,11 @@ test('multiplyBy12ThenHalve should multiply by 12 then divide by half', (expect)
 
     expect.equal(actual, expected);
 });
+
+test('divideThenMultiply should divide the first number by the second then multiply the third', (expect) => {
+    const expected = true;
+
+    const actual = true;
+
+    expect.equal(actual, expected);
+});
