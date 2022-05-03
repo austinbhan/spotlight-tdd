@@ -26,3 +26,4 @@ test('addExclamationPoints should add 3 exclamation points', (expect) => {
 
     expect.equal(actual, expected);
 });
+
